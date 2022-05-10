@@ -63,7 +63,7 @@ class PiPresents(object):
         StopWatch.global_enable=False
 
         # set up the handler for SIGTERM
-        signal.signal(signal.SIGTERM,self.handle_sigterm)
+        # signal.signal(signal.SIGTERM,self.handle_sigterm)
         
 
 # ****************************************
